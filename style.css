@@ -1,0 +1,71 @@
+	/* Styles de base */
+	body {
+		font-family: 'Bitter', serif;
+		background-color: #eef;
+		color: #259;
+		padding: 0px;
+	}
+	nav img {
+		width: 100%;
+	}
+	nav {
+		margin-bottom: 15px;
+	}
+
+	.btn {
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
+	}
+
+	.macol {
+		padding: 0px;
+	}
+
+	/* Styles pour les smartphones */
+	@media (max-width: 768px) {
+		nav img {
+			margin: 5px;
+		}
+		header h1 {
+			font-size: 24px;
+		}
+	}
+
+	/* Styles pour les tablettes */
+	@media (min-width: 768px) {
+		.container-fluid {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 992px) {
+		#real { padding-bottom: 5px;}
+		#proj { padding-right: 5px; }
+	}
+
+	/* Styles pour les écrans moyens et grands */
+	@media (min-width: 992px) {
+		#real { padding-right: 5px;}
+		#proj { padding-bottom: 5px; }
+	}
+
+	header {
+		text-align: center;
+		padding: 15px;
+	}
+
+	header a {
+		width: 96px;
+	}
+
+	header h1 {
+		/*float:left;*/
+		text-align: center;
+	}
+
+	footer {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
